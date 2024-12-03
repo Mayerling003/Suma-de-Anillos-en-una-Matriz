@@ -10,16 +10,16 @@ k dentro de una matriz de tamaño
 𝑑
 d×d.
 
-1. Descripción del algoritmo
+Descripción del algoritmo
 El algoritmo recorre los elementos del anillo en cuatro pasos principales:
 
-Borde superior: se recorren los elementos desde la posición inicial hasta la posición final de la fila superior del anillo.
-Borde derecho: se recorren los elementos desde la posición superior derecha hacia la posición inferior derecha.
-Borde inferior: se recorren los elementos desde la posición inferior derecha hacia la posición inferior izquierda.
-Borde izquierdo: se recorren los elementos desde la posición inferior izquierda hacia la posición superior izquierda.
+*Borde superior: se recorren los elementos desde la posición inicial hasta la posición final de la fila superior del anillo.
+*Borde derecho: se recorren los elementos desde la posición superior derecha hacia la posición inferior derecha.
+*Borde inferior: se recorren los elementos desde la posición inferior derecha hacia la posición inferior izquierda.
+*Borde izquierdo: se recorren los elementos desde la posición inferior izquierda hacia la posición superior izquierda.
 En cada iteración, los elementos correspondientes son sumados a una variable acumuladora (suma).
 
-2. Complejidad temporal
+# Complejidad temporal
 Para un anillo de tamaño 
 𝑛
 n, donde 
@@ -32,25 +32,25 @@ inicio
 1
 n=fin−inicio+1, los bucles realizan el siguiente número de iteraciones:
 
-Borde superior: 
+*Borde superior: 
 𝑛
 n iteraciones.
-Borde derecho: 
+*Borde derecho: 
 𝑛
 −
 1
 n−1 iteraciones.
-Borde inferior: 
+*Borde inferior: 
 𝑛
 −
 1
 n−1 iteraciones.
-Borde izquierdo: 
+*Borde izquierdo: 
 𝑛
 −
 2
 n−2 iteraciones.
-El total de iteraciones realizadas es:
+*El total de iteraciones realizadas es:
 
 𝑇
 (
@@ -100,7 +100,7 @@ d (el tamaño total de la matriz), la complejidad temporal se expresa como:
 T(d)=O(d)
 Esto indica que el tiempo de ejecución crece linealmente con el tamaño del anillo.
 
-3. Complejidad espacial
+Complejidad espacial
 La función no requiere estructuras de datos adicionales, ya que trabaja directamente con las posiciones y una variable acumuladora. Por lo tanto, su complejidad espacial es constante:
 
 𝑆
@@ -113,7 +113,7 @@ La función no requiere estructuras de datos adicionales, ya que trabaja directa
 1
 )
 S(d)=O(1)
-4. Conclusión
+Conclusión
 El algoritmo sumarAnillo tiene una complejidad temporal lineal, 
 𝑂
 (
