@@ -27,7 +27,9 @@ Para un anillo de tamaño `n`, donde `n = fin − inicio + 1`, los bucles realiz
 
 El total de iteraciones realizadas es:
 
+```markdown
 T(n) = n + (n − 1) + (n − 1) + (n − 2) = 4n − 4
+
 Por lo tanto, la complejidad temporal es proporcional al tamaño del anillo. Para matrices más grandes, donde n puede aproximarse a d (el tamaño total de la matriz), la complejidad temporal se expresa como:
 T(d) = O(d)
 # Complejidad espacial
