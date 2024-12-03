@@ -37,8 +37,4 @@ S(d) = O(1)
 Conclusión
 El algoritmo sumarAnillo tiene una complejidad temporal lineal, O(d), adecuada para procesar matrices de gran tamaño de manera eficiente. Su complejidad espacial O(1) lo convierte en un algoritmo óptimo en términos de uso de memoria, ya que no requiere almacenamiento adicional más allá de las variables utilizadas para el cálculo.
 
-### Beneficios:
-- **Markdown bien estructurado**: Usar títulos, listas y bloques de código para organizar el contenido.
-- **Legibilidad**: Claridad mejorada con puntos bien diferenciados.
-- **Estilo limpio**: Enfatiza partes clave como fórmulas y resultados.
 
