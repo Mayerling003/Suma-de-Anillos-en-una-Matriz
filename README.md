@@ -1,7 +1,7 @@
 # Suma de Anillos en una Matriz
 Implementación de un algoritmo para sumar los elementos de un anillo en una matriz cuadrada.
 ### Función sumarAnillo
-´´´Java
+Java
 public static int sumarAnillopre(int[][] matriz, int d, int k) {
         int suma = 0;
         int inicio = k;
@@ -29,7 +29,7 @@ public static int sumarAnillopre(int[][] matriz, int d, int k) {
 
         return suma;
     }
-}´´´
+}
 
 ## Análisis de Complejidad Algorítmica de la Función `sumarAnillo`
 
